@@ -21,7 +21,7 @@ button {
   padding: 20px;
   color: #ffffff;
   background-color: #0e79dd;
-  border: none;
+  border-color:none;
   border-radius: 5px;
   font-weight: 600;
 }
@@ -35,11 +35,13 @@ button {
   top: 50%;
   left: 50%;
   transform-origin: center;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -70%);
   pointer-events: none;
   opacity: 0%;
   text-align: center;
+  transition: transform .5s ease-in-out, opacity .5s ease-in-out;
 }
+
 .popup-modal p {
   margin-bottom: 24px
 }
@@ -55,6 +57,9 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  transform: translate(-50%, -50%);
+  opacity: 100%;
+  transition: transform .5s ease-in-out, opacity .5s ease-in-out;
 }
 
 .backdrop.show {
