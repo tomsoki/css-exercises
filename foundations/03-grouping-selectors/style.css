@@ -1,0 +1,44 @@
+.gumb{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    border-width: 2px;
+    border-color: #808;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+}
+
+.click{
+    background-color: #000;
+    color: #fff;
+
+}
+
+.noclick{
+    background-color: #ffff00;
+    color: #000;
+}
+
+/*
+
+SOLUTION
+
+.click,
+.noclick{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    border-width: 2px;
+    border-color: #808;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+}
+
+.click{
+    background-color: #000;
+    color: #fff;
+
+}
+
+.noclick{
+    background-color: #ffff00;
+    color: #000;
+}
+
+*/
